@@ -53,10 +53,10 @@ export default function Navbar() {
               <SealLogo size={44} />
             </div>
             <div className="flex flex-col">
-              <span className={`font-heading font-bold ${logoTextColor} leading-tight text-lg md:text-xl transition-colors`}>
+              <span className={`font-heading font-bold ${logoTextColor} leading-tight text-base sm:text-lg md:text-xl transition-colors max-w-[180px] sm:max-w-none truncate sm:whitespace-normal`}>
                 Center for Kidney Disease
               </span>
-              <span className={`text-[11px] uppercase tracking-[0.15em] ${logoSubtextColor} font-semibold transition-colors mt-0.5`}>
+              <span className={`text-[9px] sm:text-[11px] uppercase tracking-[0.15em] ${logoSubtextColor} font-semibold transition-colors mt-0.5`}>
                 & Urology Clinic
               </span>
             </div>
